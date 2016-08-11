@@ -6,3 +6,19 @@
 # In your final submission:
 #  - Do not print anything extraneous!
 #  - Do not put anything but pass in main()
+
+def cumulative_sum(t):
+	res = []	# Result list
+	sum = 0
+	for item in t:
+		sum += item
+		res.append(sum)
+	return res
+
+def main():
+	# print(cumulative_sum([1, 2, 3]))
+	# print(cumulative_sum([1, 3, 6]))
+	pass
+
+if __name__ == '__main__':
+	main()
